@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina — L'intelligence au service de votre équipe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav-header">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-dot"></span>Lumina
+      </a>
+      <nav class="nav-links">
+        <a href="#presentation">Produit</a>
+        <a href="#features">Fonctionnalités</a>
+        <a href="#pricing">Tarifs</a>
+        <a href="#pricing" class="button-blue nav-cta">Démarrer</a>
+      </nav>
+      <button class="nav-burger" aria-label="Menu" id="burgerBtn">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== BANNER ===== -->
+  <section class="banner">
+    <div class="banner-orb orb-1"></div>
+    <div class="banner-orb orb-2"></div>
+    <div class="banner-orb orb-3"></div>
+    <div class="container banner-content">
+      <p class="banner-eyebrow">✦ Nouveau · Powered by AI</p>
+      <h1 class="banner-title">
+        Votre équipe,<br/>
+        <span class="banner-title-accent">amplifiée</span> par l'IA
+      </h1>
+      <p class="banner-sub">
+        Lumina connecte vos outils, automatise vos workflows et révèle les insights cachés dans vos données — pour que vous puissiez vous concentrer sur ce qui compte vraiment.
+      </p>
+      <div class="banner-actions">
+        <a href="#pricing" class="button-blue">Essayer gratuitement</a>
+        <a href="#features" class="button-ghost">Découvrir →</a>
+      </div>
+      <p class="banner-note">Sans carte bancaire · Annulation à tout moment</p>
+      <div class="banner-stats">
+        <div class="stat">
+          <span class="stat-num">12 000+</span>
+          <span class="stat-label">équipes actives</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">98 %</span>
+          <span class="stat-label">satisfaction client</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">3× plus vite</span>
+          <span class="stat-label">décisions prises</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOGOS BAND ===== -->
+  <section class="logos-band">
+    <div class="container">
+      <p class="logos-label">Adopté par des équipes dans des entreprises de premier plan</p>
+      <div class="logos-row">
+        <span class="logo-pill">Stripe</span>
+        <span class="logo-pill">Notion</span>
+        <span class="logo-pill">Vercel</span>
+        <span class="logo-pill">Linear</span>
+        <span class="logo-pill">Figma</span>
+        <span class="logo-pill">Loom</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRÉSENTATION ===== -->
+  <section class="presentation" id="presentation">
+    <div class="container">
+      <div class="presentation-grid">
+        <div class="presentation-text">
+          <p class="section-eyebrow">Pourquoi Lumina</p>
+          <h2 class="section-title">Un espace de travail qui pense avec vous</h2>
+          <p class="section-body">
+            Les équipes modernes jonglent avec des dizaines d'outils, des centaines de fichiers et des milliers de notifications. Lumina met fin au chaos en créant une couche d'intelligence centralisée qui apprend de vos habitudes, connecte vos applications et vous présente exactement ce dont vous avez besoin, au moment où vous en avez besoin.
+          </p>
+          <ul class="benefit-list">
+            <li class="benefit-item">
+              <span class="benefit-icon">⚡</span>
+              <div>
+                <strong>Gain de temps immédiat</strong>
+                <p>Économisez en moyenne 2,5 heures par jour sur les tâches répétitives grâce à l'automatisation intelligente.</p>
+              </div>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-icon">🔗</span>
+              <div>
+                <strong>Intégration sans friction</strong>
+                <p>Connectez plus de 200 outils en quelques clics : Slack, Notion, GitHub, Jira, Google Workspace…</p>
+              </div>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-icon">🔒</span>
+              <div>
+                <strong>Sécurité enterprise</strong>
+                <p>Chiffrement de bout en bout, conformité RGPD et hébergement en Europe disponible sur demande.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="presentation-visual">
+          <div class="ui-mockup">
+            <div class="mockup-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="mockup-url">lumina.app/dashboard</span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-sidebar">
+                <div class="sidebar-item active">🏠 Dashboard</div>
+                <div class="sidebar-item">⚡ Workflows</div>
+                <div class="sidebar-item">📊 Insights</div>
+                <div class="sidebar-item">🔗 Intégrations</div>
+                <div class="sidebar-item">⚙️ Paramètres</div>
+              </div>
+              <div class="mockup-main">
+                <div class="mockup-greeting">Bonjour, Sophie 👋</div>
+                <div class="mockup-cards-mini">
+                  <div class="mini-card">
+                    <div class="mini-card-label">Tâches aujourd'hui</div>
+                    <div class="mini-card-value">7</div>
+                  </div>
+                  <div class="mini-card highlight-mini">
+                    <div class="mini-card-label">Automatisées</div>
+                    <div class="mini-card-value">12</div>
+                  </div>
+                </div>
+                <div class="mockup-insight">
+                  <span class="insight-tag">IA</span>
+                  <p>Suggestion : votre réunion de 14h peut être remplacée par un rapport automatique.</p>
+                </div>
+                <div class="mockup-bar-chart">
+                  <div class="bar" style="height:40%"></div>
+                  <div class="bar" style="height:65%"></div>
+                  <div class="bar" style="height:50%"></div>
+                  <div class="bar active-bar" style="height:85%"></div>
+                  <div class="bar" style="height:70%"></div>
+                  <div class="bar" style="height:55%"></div>
+                  <div class="bar" style="height:90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FONCTIONNALITÉS ===== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Fonctionnalités</p>
+        <h2 class="section-title">Tout ce dont votre équipe a besoin</h2>
+        <p class="section-subtitle">Des outils puissants pensés pour des équipes qui veulent aller plus vite, sans sacrifier la qualité.</p>
+      </div>
+      <div class="cards">
+
+        <article class="card-white">
+          <div class="card-icon-wrap" style="--card-color: #5C6BC0;">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80" alt="Automatisation de workflows" class="card-img" />
+          <h3>Workflows automatisés</h3>
+          <p>Créez des automatisations en langage naturel. Lumina comprend vos intentions et construit les pipelines pour vous — sans une ligne de code.</p>
+          <a href="#" class="card-link">En savoir plus →</a>
+        </article>
+
+        <article class="card-white">
+          <div class="card-icon-wrap" style="--card-color: #00BCD4;">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=400&q=80" alt="Insights en temps réel" class="card-img" />
+          <h3>Insights en temps réel</h3>
+          <p>Tableaux de bord dynamiques alimentés par l'IA. Détectez les tendances, identifiez les goulots d'étranglement et prenez des décisions basées sur les données.</p>
+          <a href="#" class="card-link">En savoir plus →</a>
+        </article>
+
+        <article class="card-white">
+          <div class="card-icon-wrap" style="--card-color: #7E57C2;">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&q=80" alt="Collaboration en équipe" class="card-img" />
+          <h3>Collaboration augmentée</h3>
+          <p>Espace de travail partagé avec résumés automatiques des réunions, assignation intelligente des tâches et suivi du contexte entre les membres de l'équipe.</p>
+          <a href="#" class="card-link">En savoir plus →</a>
+        </article>
+
+        <article class="card-white">
+          <div class="card-icon-wrap" style="--card-color: #26A69A;">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&q=80" alt="Intégrations natives" class="card-img" />
+          <h3>200+ intégrations</h3>
+          <p>Slack, Notion, GitHub, Salesforce, Jira… Lumina s'intègre à l'écosystème que vous utilisez déjà, sans remplacer vos outils préférés.</p>
+          <a href="#" class="card-link">En savoir plus →</a>
+        </article>
+
+        <article class="card-white">
+          <div class="card-icon-wrap" style="--card-color: #EF5350;">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&q=80" alt="Sécurité enterprise" class="card-img" />
+          <h3>Sécurité enterprise</h3>
+          <p>SOC 2 Type II, chiffrement AES-256, SSO, audit logs complets. Votre données restent les vôtres — toujours.</p>
+          <a href="#" class="card-link">En savoir plus →</a>
+        </article>
+
+        <article class="card-white">
+          <div class="card-icon-wrap" style="--card-color: #FF7043;">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&q=80" alt="Assistant IA conversationnel" class="card-img" />
+          <h3>Assistant IA natif</h3>
+          <p>Posez des questions en langage naturel sur vos données, vos projets, vos équipes. Obtenez des réponses précises en quelques secondes.</p>
+          <a href="#" class="card-link">En savoir plus →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIAL ===== -->
+  <section class="testimonial-band">
+    <div class="container">
+      <blockquote class="big-quote">
+        "Lumina a transformé la façon dont notre équipe travaille. Nous avons réduit nos réunions de 40% et doublé notre vélocité en deux mois."
+      </blockquote>
+      <div class="quote-author">
+        <div class="author-avatar">MC</div>
+        <div>
+          <strong>Marie-Claire Dupont</strong>
+          <span>VP Engineering · TechVentures Paris</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TARIFS ===== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Tarifs</p>
+        <h2 class="section-title">Simple, transparent, sans surprise</h2>
+        <p class="section-subtitle">Commencez gratuitement. Passez à l'échelle quand vous êtes prêt.</p>
+      </div>
+
+      <div class="pricing-toggle">
+        <span class="toggle-label">Mensuel</span>
+        <button class="toggle-btn" id="toggleBtn" aria-pressed="false">
+          <span class="toggle-thumb"></span>
+        </button>
+        <span class="toggle-label">Annuel <em class="save-badge">-20%</em></span>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- Starter -->
+        <div class="pricing-card">
+          <div class="plan-name">Starter</div>
+          <div class="plan-price">
+            <span class="price-amount" data-monthly="0" data-yearly="0">Gratuit</span>
+          </div>
+          <p class="plan-desc">Parfait pour découvrir Lumina et automatiser vos premiers workflows.</p>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Jusqu'à 3 utilisateurs</li>
+            <li><span class="check">✓</span> 10 automatisations / mois</li>
+            <li><span class="check">✓</span> 5 intégrations</li>
+            <li><span class="check">✓</span> Tableau de bord basique</li>
+            <li class="muted"><span class="cross">✗</span> Assistant IA avancé</li>
+            <li class="muted"><span class="cross">✗</span> Support prioritaire</li>
+          </ul>
+          <a href="#" class="button-outline">Commencer gratuitement</a>
+        </div>
+
+        <!-- Pro (recommended) -->
+        <div class="pricing-card pricing-card-featured">
+          <div class="featured-badge">✦ Recommandé</div>
+          <div class="plan-name">Pro</div>
+          <div class="plan-price">
+            <span class="price-amount monthly-price" data-monthly="49" data-yearly="39">49 €</span>
+            <span class="price-period">/mois · par utilisateur</span>
+          </div>
+          <p class="plan-desc">La puissance complète de Lumina pour des équipes qui veulent performer.</p>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Utilisateurs illimités</li>
+            <li><span class="check">✓</span> Automatisations illimitées</li>
+            <li><span class="check">✓</span> 200+ intégrations</li>
+            <li><span class="check">✓</span> Insights IA avancés</li>
+            <li><span class="check">✓</span> Assistant IA natif</li>
+            <li><span class="check">✓</span> Support 24/7 prioritaire</li>
+          </ul>
+          <a href="#" class="button-blue">Démarrer l'essai gratuit</a>
+          <p class="trial-note">14 jours gratuits, sans engagement</p>
+        </div>
+
+        <!-- Enterprise -->
+        <div class="pricing-card">
+          <div class="plan-name">Enterprise</div>
+          <div class="plan-price">
+            <span class="price-amount">Sur devis</span>
+          </div>
+          <p class="plan-desc">Pour les grandes organisations avec des besoins spécifiques de sécurité et de conformité.</p>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Tout le plan Pro</li>
+            <li><span class="check">✓</span> SSO & SAML</li>
+            <li><span class="check">✓</span> Hébergement EU dédié</li>
+            <li><span class="check">✓</span> SLA personnalisé</li>
+            <li><span class="check">✓</span> Audit logs complets</li>
+            <li><span class="check">✓</span> Customer Success manager</li>
+          </ul>
+          <a href="#" class="button-outline">Contacter les ventes</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA FINAL ===== -->
+  <section class="final-cta">
+    <div class="container">
+      <div class="cta-orb"></div>
+      <h2 class="cta-title">Prêt à transformer votre façon de travailler ?</h2>
+      <p class="cta-sub">Rejoignez 12 000 équipes qui ont déjà choisi Lumina.</p>
+      <a href="#pricing" class="button-blue cta-btn">Démarrer gratuitement</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo footer-logo">
+          <span class="logo-dot"></span>Lumina
+        </a>
+        <p class="footer-tagline">L'intelligence au service de votre équipe.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Twitter/X">𝕏</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="GitHub">⌥</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Produit</h4>
+        <a href="#">Fonctionnalités</a>
+        <a href="#">Tarifs</a>
+        <a href="#">Intégrations</a>
+        <a href="#">Changelog</a>
+        <a href="#">Roadmap</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Ressources</h4>
+        <a href="#">Documentation</a>
+        <a href="#">Blog</a>
+        <a href="#">Tutoriels</a>
+        <a href="#">API</a>
+        <a href="#">Statut</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Entreprise</h4>
+        <a href="#">À propos</a>
+        <a href="#">Carrières <em class="hiring-tag">On recrute</em></a>
+        <a href="#">Presse</a>
+        <a href="#">Contact</a>
+        <a href="#">Partenaires</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Légal</h4>
+        <a href="#">Confidentialité</a>
+        <a href="#">CGU</a>
+        <a href="#">Cookies</a>
+        <a href="#">RGPD</a>
+        <a href="#">Sécurité</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2025 Lumina Technologies SAS. Tous droits réservés.</p>
+        <p>Conçu avec ♥ à Paris · Hébergé en Europe 🇪🇺</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile burger menu
+    const burger = document.getElementById('burgerBtn');
+    const navLinks = document.querySelector('.nav-links');
+    burger.addEventListener('click', () => {
+      navLinks.classList.toggle('nav-open');
+      burger.classList.toggle('open');
+    });
+
+    // Pricing toggle (monthly / yearly)
+    const toggleBtn = document.getElementById('toggleBtn');
+    let isYearly = false;
+    toggleBtn.addEventListener('click', () => {
+      isYearly = !isYearly;
+      toggleBtn.setAttribute('aria-pressed', isYearly);
+      toggleBtn.classList.toggle('active', isYearly);
+      document.querySelectorAll('.monthly-price').forEach(el => {
+        const monthly = el.dataset.monthly;
+        const yearly = el.dataset.yearly;
+        if (monthly !== undefined && yearly !== undefined) {
+          el.textContent = (isYearly ? yearly : monthly) + ' €';
+        }
+      });
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Nav scroll effect
+    const navHeader = document.querySelector('.nav-header');
+    window.addEventListener('scroll', () => {
+      navHeader.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Intersection Observer for reveal animations
+    const reveals = document.querySelectorAll('.card-white, .benefit-item, .pricing-card');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('revealed');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
